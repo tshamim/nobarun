@@ -1,6 +1,8 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    './dist/**/*.{html,js}',
+  ],
+
   theme: {
     screens: {
       sm: '576px',
